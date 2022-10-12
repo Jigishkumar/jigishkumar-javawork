@@ -1,0 +1,5 @@
+package IntrrfaceSegregation;
+
+public interface Bid {
+
+}

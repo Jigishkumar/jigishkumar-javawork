@@ -1,0 +1,11 @@
+package open_close;
+
+public class AreaCalculator {
+	 public double calculateAreaRectangle(Rectangle rect){
+	        return rect.getLength() * rect.getWidth();
+	    }
+	    public double calculateAreaCircle(Circle circle){
+	        return circle.getRadius() * circle.getRadius() * Math.PI;
+	    }
+
+}

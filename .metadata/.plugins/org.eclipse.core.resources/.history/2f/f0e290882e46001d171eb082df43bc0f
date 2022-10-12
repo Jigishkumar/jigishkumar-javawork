@@ -1,0 +1,6 @@
+package IntrerfaceSegregation;
+
+public interface Bid {
+	 public void fly();
+	 public void layEggs();
+}

@@ -1,0 +1,28 @@
+package Test;
+
+import java.util.Scanner;
+
+import ClassObject.Book;
+
+public class TestJava2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Customerclass cust2=new Customer();
+		Scanner scn=new Scanner(System.in);
+		System.out.println("Enter title");
+		book2.title=scn.nextLine();
+		System.out.println("Enter Author");
+		book2.author=scn.nextLine();
+		System.out.println("Enter Price");
+		book2.price=scn.nextFloat();
+		
+		System.out.println(book2.title);
+		System.out.println(book2.author);
+		System.out.println(book2.price);
+		System.out.println(book2.publisher);
+		book2.print();
+		scn.close();
+	}
+
+}

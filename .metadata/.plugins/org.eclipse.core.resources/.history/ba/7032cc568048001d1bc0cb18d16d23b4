@@ -1,0 +1,26 @@
+package lamda;
+
+public class Test {
+
+	public static void main(String[] args) {
+		//Perosn p-new Person();
+		//p.greet();
+		//Greeting gr=new Greeting();// not allowed
+		//Greeting gr=new Person();// dependency on class person
+		
+		//Anonymous class
+		Greeting gr=new Greeting() {
+		public void greet() {
+			System.out.println("Hello World");
+		}
+		public void welcom() {
+			System.out.println("Welcome");
+		}
+		};
+		gr.greet();
+		gr.welcome();
+		}
+
+	}
+
+}

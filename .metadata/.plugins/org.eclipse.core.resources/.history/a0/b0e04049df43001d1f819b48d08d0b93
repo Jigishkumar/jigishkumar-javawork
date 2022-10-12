@@ -1,0 +1,25 @@
+package unit;
+
+public class BiggestFromArray {
+
+	static int num[]= {10,5,200,25,60,40};
+	static int biggest =num[0];
+	
+	static int findBiggest1() {
+		 int i;
+         
+	        // Initialize maximum element
+	        int max = num[0];
+	         
+	        // Traverse array elements from second and
+	        // compare every element with current max
+	        for (int i = 0; i < num.length; i++)
+	        {
+	            if (num[i] > biggest)
+	            {
+	            	biggest=num[1];
+	            }
+	               
+	        }
+	}
+}

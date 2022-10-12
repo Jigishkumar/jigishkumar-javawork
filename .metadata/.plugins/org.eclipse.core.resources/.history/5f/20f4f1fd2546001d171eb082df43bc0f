@@ -1,0 +1,6 @@
+package Substitution;
+
+public class FlyingBird {
+	public abstract void fly();
+
+}

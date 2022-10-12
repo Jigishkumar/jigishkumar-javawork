@@ -1,0 +1,16 @@
+package unit;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class RunTest {
+	@Test
+	//check method
+	public void runFindBig() {
+		//assertequals check if first argument is equal to 2nd arg
+		assertEquals(20, Calculator.findBig(10, 20, 15));
+	}
+
+
+}

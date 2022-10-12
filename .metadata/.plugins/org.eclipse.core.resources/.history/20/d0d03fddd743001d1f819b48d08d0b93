@@ -1,0 +1,14 @@
+package unit;
+
+public class Calculator {
+	public static int findBig(int x, int y)
+	{
+		if (x>y)
+			return x;
+		if (y>x)
+			return y;
+
+	}
+	
+
+

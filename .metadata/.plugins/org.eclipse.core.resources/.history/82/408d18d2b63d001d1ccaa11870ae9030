@@ -1,0 +1,19 @@
+package Test;
+
+import customer.Customerclass;
+import payment.Paymentclass;
+import product.Productclass;
+
+public class Test {
+ 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Customerclass obj1=new Customerclass();
+				obj1.show();
+		Productclass obj2=new Productclass();
+		obj2.showProduct();
+		Paymentclass obj3=new Paymentclass();
+		obj3.showPayment();
+	}
+
+}

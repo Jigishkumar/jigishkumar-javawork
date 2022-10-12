@@ -1,0 +1,16 @@
+package Com;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+import unit.BiggestFromArray;
+
+public class TestPayment {
+	@Test
+	// check method
+	public void runFindBiggest1() {
+		// assertequals check if first argument is equal to 2nd arg
+		assertEquals(200, BiggestFromArray.findBiggest1());
+	}
+}
