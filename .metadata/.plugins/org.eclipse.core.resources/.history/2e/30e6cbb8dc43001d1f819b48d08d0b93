@@ -1,7 +1,0 @@
-package unit;
-
-public class BiggestFromArray {
-
-	int num[]= {10,5,200,25,60,40};
-	
-}

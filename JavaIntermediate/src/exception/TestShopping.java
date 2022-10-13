@@ -7,12 +7,10 @@ public class TestShopping {
 		sh.addToCart();
 		try {
 			sh.makePayment();
-		}
-		catch(Exception e) {
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
 	}
-
 }
