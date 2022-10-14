@@ -1,9 +1,0 @@
-package DependencyInversion;
-
-public class Mobile {
-	 public String generateWeatherAlert(String conditions) {
-	        String alert = "It is " + conditions;
-	        return alert;
-	    }
-
-}
